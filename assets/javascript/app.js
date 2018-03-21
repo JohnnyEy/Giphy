@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     function displayInfo() {
         var rapper = $(this).attr("rapper-name");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + rapper + "&api_key=fxh7SCOXVrv0bE0A28eVsbzjnEzApeeP";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + rapper + "&api_key=fxh7SCOXVrv0bE0A28eVsbzjnEzApeeP&limit=10";
 
 
         $.ajax({
